@@ -77,7 +77,7 @@ FastAPI allows for secure ERP compatability.
 ## How to Run
 1. Clone the repository from GitHub
 2. Install the dependencies
-    - Using "pip install -r requirements.txt" all required packages will be downloaded.
+    - Using "pip install -r requirements.txt" in the temrinal all required packages will be downloaded.
 3. Run the Streamlit webapp
     - this is done by typing "streamlit run app.py" in the console and pressing enter afterwards.
 4. The app will automatically open in the browers, and the link to the Webapp will be provided.
