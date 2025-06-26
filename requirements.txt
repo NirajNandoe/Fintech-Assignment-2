@@ -1,0 +1,8 @@
+# This file is used to install the required packages for the usage of the MVP.
+streamlit
+fastapi
+uvicorn
+fpdf
+pandas
+requests
+python-multipart
