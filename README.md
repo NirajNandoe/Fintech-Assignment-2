@@ -5,7 +5,7 @@ Niraj Nandoe (700368)
 ----------------------------------------------------------------------------------------------------------------------------
 
 ## Overview
-Crossover Solutions is a Fintech startup that aims at automating and innovating cross-border payments for SME's using Blockcahin technology.
+Crossover Solutions is a Fintech startup that aims at automating and innovating cross-border payments for SME's using Blockchain technology.
 By implementing stablecoins, smart contracts, and on- and off-ramp providers, we aim to achieve fast conversions against the lowest costs.
 All while allowing customers to pay in the currencies they prefer, and companies to get paid in the currency that they prefer.
 Furthermore, Crossover Solutions provides a automated invoicing system that creates invoices and automatically sends them to the customers.
@@ -54,6 +54,7 @@ The Crossover Solutions MVP makes use of the following architectures:
     - email_utils.py: Simulates the automatic emails.
     - storage.py: Allows for data storage.
     - config.py: Defines the base characters.
+- The MVP is a procedural paradigm, as the code is written as reusable functions.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -94,7 +95,8 @@ In this step it will be explained how the MVP is supposed to be used.
 2. Simulate the payment
     - Choose the currency the customer will pay in.
     - See the chosen conversion path between providers, stablecoins, rates and the fees.
-    - The payment is settled via a simulated smart contract, which is visible in the UI. 
+    - The payment is settled via a simulated smart contract, which is visible in the UI.
+    - PLEASE NOTE: Simulating the payment requires pressing the simulate buttin twice.
 3. After payment settlement
     - Download the PDF of the invoice.
     - Email the proof of payment to the customer.
@@ -109,8 +111,8 @@ In this step it will be explained how the MVP is supposed to be used.
 Before application in a real-world setting, changes have to be made to the MVP. These changes will be discussed.
 
 - Scaling 
-    - Instead of JSON, a database created in SQL is necessary
-    - Real time API connection to providers has to be implemented
+    - Instead of JSON, a database created in SQL is necessary.
+    - Real time API connection to providers has to be implemented.
     - The Streamlit webapp has to be deployed in the cloud, this can be for example, Amazon webserver, Google Cloud or Azure.
 
 - Challenges
